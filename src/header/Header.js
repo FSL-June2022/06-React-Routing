@@ -15,7 +15,7 @@ import { CgSearch } from "react-icons/cg";
 
 const Header = () => {
   return (
-      <Navbar bg="light" variant="light">
+     <Navbar bg="light" variant="light">
         <Container fluid>
           <NavbarBrand href="#home">
             <img
@@ -30,9 +30,9 @@ const Header = () => {
           <NavbarCollapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" navbarScroll>
               <NavDropdown title="Explore" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Home</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">About</NavDropdown.Item>
-                <NavDropdown.Item href="#action5">Contact Us</NavDropdown.Item>
+                <NavDropdown.Item href="/">Home  </NavDropdown.Item>
+                <NavDropdown.Item href="/">About  </NavDropdown.Item>
+                <NavDropdown.Item href="/">Contact Us</NavDropdown.Item>
               </NavDropdown>
             </Nav>
 

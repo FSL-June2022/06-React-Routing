@@ -15,7 +15,7 @@ import { MdContentCopy } from "react-icons/md";
 
 const ReferCopy = () => {
   const [text, setText] = useState("https://www.eduonix.com/skill/web-development");
-  const [textt, setTextt] = useState("kjm345");
+  const [textt, setTextt] = useState("mak1980");
   const [isCopied, setIsCopied] = useState(false);
 
   const onCopyText = () => {
