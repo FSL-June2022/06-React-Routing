@@ -1,5 +1,6 @@
 import React from "react";
 import { NavbarBrand, InputGroup, FormControl } from "react-bootstrap";
+import './Header.css'
 // import { FormControl, NavbarBrand, NavLink, InputGroup } from 'react-bootstrap'
 import Container from "react-bootstrap/Container";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
